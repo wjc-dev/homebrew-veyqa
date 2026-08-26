@@ -8,7 +8,7 @@ cask "veyqa-voice" do
   homepage "https://github.com/wjc-dev/voxtype"
 
   depends_on arch: :arm64
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Veyqa Voice.app"
 end
