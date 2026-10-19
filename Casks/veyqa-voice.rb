@@ -1,6 +1,6 @@
 cask "veyqa-voice" do
-  version "0.2.6"
-  sha256 "b20d692ec8ec2c86406bcca056b6630ac5b5000b9a7bb9a2e082e9b00277eb9c"
+  version "0.2.7"
+  sha256 "2fb5b9fe41100b17f4f5e6dff7754cb1039010a1df23c17fda3c930c6ad560a9"
 
   url "https://github.com/wjc-dev/voxtype/releases/download/v#{version}/Veyqa-Voice-v#{version}-macOS-arm64.dmg"
   name "Veyqa Voice"
