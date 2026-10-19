@@ -8,8 +8,11 @@ brew install --cask wjc-dev/veyqa/veyqa-voice
 
 Upgrade:
 
+Quit Veyqa Voice before updating, then reopen it from Applications. Your credentials and settings are retained.
+
 ```bash
-brew upgrade --cask veyqa-voice
+brew update
+brew upgrade --cask wjc-dev/veyqa/veyqa-voice
 ```
 
 Uninstall:
