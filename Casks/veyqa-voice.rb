@@ -1,11 +1,11 @@
 cask "veyqa-voice" do
-  version "0.2.13"
-  sha256 "edb40ab437e0b1625afd4ee19363095fe4f842d265db3442ee76a6bf1142bb93"
+  version "0.2.14"
+  sha256 "b2c19f44977b2f8ccdb16ab1bfbe235456424fbd3e67e0fb9a7c278d4885da0f"
 
-  url "https://github.com/wjc-dev/voxtype/releases/download/v#{version}/Veyqa-Voice-v#{version}-macOS-arm64.dmg"
+  url "https://github.com/wjc-dev/veyqa-voice/releases/download/v#{version}/Veyqa-Voice-v#{version}-macOS-arm64.dmg"
   name "Veyqa Voice"
   desc "Push-to-talk voice input"
-  homepage "https://wjc-dev.github.io/voxtype/"
+  homepage "https://wjc-dev.github.io/veyqa-voice/"
 
   auto_updates true
   depends_on arch: :arm64
